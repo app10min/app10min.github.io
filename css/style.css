@@ -233,6 +233,7 @@ html, body {
     .cd-single-item p {
     font-size: 0.600rem;
   }
+    #bgvid { display: none; }
 }
 .cd-logo-container {
   /*wrapper for image (and video - desktop only)*/
