@@ -124,7 +124,7 @@ html, body {
 }
 .cd-header #cd-logo img {
   display: block;
-  width: 128px;
+  width: 126px;
   height: 18px;
 }
 .cd-header #cd-action {
@@ -156,6 +156,7 @@ html, body {
 .cd-product-intro {
   padding: 10px 5%;
   text-align: center;
+    -moz-transform: scale(1.25);  /* Firefox */
 }
 .cd-product-intro h1 {
   margin-bottom: 10px;
@@ -206,6 +207,7 @@ html, body {
   width: 100%;
   text-align: center;
   border-top: 1px solid #494e6e;
+        -moz-transform: scale(1.10);  /* Firefox */
 }
 .cd-single-item h2 {
   margin-bottom: 15px;
@@ -220,16 +222,16 @@ html, body {
 }
 @media only screen and (max-width: 750px) {
     .cd-product-intro h1 {
-    font-size: 1.200rem;
+    font-size: 1.100rem;
   }
     .cd-product-intro p {
-    font-size: 0.700rem;
+    font-size: 0.600rem;
   }
   .cd-single-item h2 {
-    font-size: 1.200rem;
+    font-size: 1.100rem;
   }
     .cd-single-item p {
-    font-size: 0.700rem;
+    font-size: 0.600rem;
   }
 }
 .cd-logo-container {
